@@ -18,13 +18,14 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"github.com/klaytn/klaytn/node/cn/tracers"
 	"math/big"
 	"os"
 	"reflect"
 	"sort"
 	"strings"
 	"testing"
+
+	"github.com/klaytn/klaytn/node/cn/tracers"
 
 	"github.com/klaytn/klaytn"
 	"github.com/klaytn/klaytn/blockchain/types"
